@@ -1,4 +1,17 @@
 
+phone = True
+while phone:
+    user_input = input("True or false: Thienlac is cool: ")
+    if user_input == "True" or user_input == "true" or user_input == "t":
+        print("That's what I thought.")
+        phone = False
+    if user_input == "False" or user_input == "false" or user_input == "f":
+        print("No, Thienlac is cool.")
+        
+        
+
+
+
 dog = True
 like_count = 0  # Initialize a counter to track how many times the user says "yes"
 roblox = 100000
